@@ -1,0 +1,38 @@
+
+/* Giscus Custom Theme */
+main {
+  --color-canvas-default: transparent;
+  --color-canvas-subtle: #09090b; /* zinc-950 */
+  --color-border-default: #18181b; /* zinc-900 */
+  --color-border-muted: #27272a; /* zinc-800 */
+  --color-fg-default: #fafafa; /* zinc-50 */
+  --color-fg-muted: #a1a1aa; /* zinc-400 */
+  --color-canvas-inset: #09090b;
+  --color-accent-fg: #fafafa;
+  --color-accent-emphasis: #27272a;
+}
+
+.giscus-browser {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.giscus-textarea {
+  background-color: #09090b !important;
+  border-color: #18181b !important;
+  color: #fafafa !important;
+}
+
+.giscus-textarea:focus {
+  border-color: #3f3f46 !important;
+}
+
+.giscus-button-primary {
+  background-color: #fafafa !important;
+  color: #09090b !important;
+  font-weight: 500 !important;
+}
+
+.giscus-comment {
+  border-bottom: 1px solid #18181b !important;
+  margin-bottom: 2rem !important;
+}
